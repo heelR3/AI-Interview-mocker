@@ -1,3 +1,6 @@
+# **AI Mock Interview**
+[![Visit EMS](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://ai-interview-mocker-phi-teal.vercel.app/)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
