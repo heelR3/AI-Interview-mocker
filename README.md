@@ -1,43 +1,103 @@
 # **AI Mock Interview**
 [![Live Demo](https://img.shields.io/badge/LIVE-DEMO-blue?style=for-the-badge&labelColor=333)](https://ai-interview-mocker-phi-teal.vercel.app/)
 
-An AI-powered web app that simulates job interviews with real-time responses and feedback, helping users practice effectively using Gemini AI. Built with **[Next.js](https://nextjs.org)**, **Tailwind CSS**, **TypeScript**, and **Clerk**.
+An AI-powered web app that simulates job interviews with real-time responses and feedback, helping users practice effectively using Gemini AI. Built with **[Next.js](https://nextjs.org)**, **Tailwind CSS**, **JavaScript**, and **Clerk**.
 
 # **Login Page**
-![Dashboard Preview](./public/images/AiMockInterview_1.png)
+![Login Page](./public/images/AiMockInterview_1.png)
+
+# **Dashboard**
+![Dashboard Preview](./public/images/AiMockInterview_2.png)
+
+# **Add New Interview**
+![New Interview Creation](./public/images/AiMockInterview_3.png)
+
+# **Interview Landing Page**
+![Interview Landing Page](./public/images/AiMockInterview_4.png)
+
+# **Generate Questions and Record your Answers**
+![Interview Question Page](./public/images/AiMockInterview_5.png)
+
+# **Interview Feedback**
+![Feedback Page](./public/images/AiMockInterview_6.png)
+
+## 🧰 Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [JavaScript]
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Clerk](https://clerk.dev/)
+- [Gemini AI](https://ai.google.dev/)
+- [Drizzle ORM](https://orm.drizzle.team/)
 
 
-## Getting Started
+## 📁 Folder Structure
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+AI-Interview-mocker/
+├── app/
+│   ├── (auth)\sign-in\[[...sign-in]]
+│   |   └── page.jsx
+│   ├── dashboard/
+│   │   ├── _components/
+│   |   |   ├── AddNewInterview.jsx
+│   |   |   ├── Header.jsx
+│   |   |   ├── InterviewItemCard.jsx
+│   |   |   ├── InterviewList.jsx
+│   │   ├── howItWorks/page.jsx
+│   │   ├── interview\[interviewId]/
+│   |   |   ├── feedback/page.jsx
+│   |   |   ├── start/
+│   |   |   |   ├── _component/
+│   |   |   |   |   ├── QuestionSection.jsx
+│   |   |   |   |   ├── RecordAnswerSection.jsx
+│   |   |   |   ├── page.jsx
+│   |   |   ├── page.jsx
+│   │   ├── question/page.jsx
+│   │   ├── upgrade/page.jsx
+│   |   ├── layout.jsx
+│   |   ├── page.jsx
+│   └── global.css
+|   └── layout.js
+|   └── page.js
+├── components\ui
+│   ├── button.jsx
+│   ├── collapsible.jsx
+│   ├── dialog.jsx
+│   ├── input.jsx
+│   ├── sonner.jsx
+│   ├── textarea.jsx
+├── drizzle
+├── lib/utils.js
+├── db/
+├── public/
+│   └── images/
+├── utils
+|   ├── db.js
+|   ├── GeminiAIModel.js
+|   ├── schema.js
+├── .env.local
+├── components.json
+├── drizzle.config.js
+├── jsconfig.json
+├── middleware.js
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+├── tailwind.config.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
+## 🤝 Contributing
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Contributions are welcome! Open issues, submit PRs, and improve the platform together.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📄 License
 
-To learn more about Next.js, take a look at the following resources:
+Licensed under the [MIT License](LICENSE).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
