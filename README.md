@@ -4,7 +4,7 @@
 An AI-powered web app that simulates job interviews with real-time responses and feedback, helping users practice effectively using Gemini AI. Built with **[Next.js](https://nextjs.org)**, **Tailwind CSS**, **TypeScript**, and **Clerk**.
 
 # **Login Page**
-![Dashboard Preview](./public/images/mockinterview-1.png)
+![Dashboard Preview](./public/images/AiMockInterview_1.png)
 
 
 ## Getting Started
