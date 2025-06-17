@@ -1,7 +1,10 @@
 # **AI Mock Interview**
-[![Visit EMS](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://ai-interview-mocker-phi-teal.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/LIVE-DEMO-blue?style=for-the-badge&labelColor=333)](https://ai-interview-mocker-phi-teal.vercel.app/)
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+An AI-powered web app that simulates job interviews with real-time responses and feedback, helping users practice effectively using Gemini AI. Built with **[Next.js](https://nextjs.org)**, **Tailwind CSS**, **TypeScript**, and **Clerk**.
+
+# **Login Page**
+![Admin Dashboard](https://github.com/heelR3/AI-Interview-mocker/public/images/AiMockInterview_1.png?raw=true)
 
 ## Getting Started
 
